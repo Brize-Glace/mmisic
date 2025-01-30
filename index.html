@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Righteous&family=Ruge+Boogie&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9b6f3a1221.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>MMisic - Mon choix musical avec des extraits exclusifs</title>
+    <link rel="icon" type="image/ico" href="public/img/vynil.ico" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <h1>MMisic</h1>
+        <p>Mon choix musical avec des extraits exclusifs</p>
+      </div>
+      <div id="btn">
+        <p class="headerBtn">
+          <a href="#musics" aria-label="descendre">
+            <i class="fas fa-angle-down fa-2xl"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+    <div id="musics"></div>
+    <div class="form">
+      <h1>Proposez votre musique préférée</h1>
+      <form action="">
+        <label for="titre">Titre d'une musique : (obligatoire, max 100 caractères)</label>
+        <input type="text" id="titre" placeholder="Never Gonna Give You Up (je t'ai rickroll)" maxlength="100" required />
+        <p id="small-title" class="small">Remplissez ce champs</p> 
+      
+        <label for="artiste">Artiste de la musique : (obligatoire, max 50 caractères)</label>
+        <input type="text" id="artiste" placeholder="Rick Astley" maxlength="50" required/>
+        <p id="small-artist" class="small">Remplissez ce champs</p>
+      
+        <label for="annee">Année de sortie : (obligatoire, chiffres uniquement, max 4 chiffres)</label>
+        <input type="number" id="annee" placeholder="1987" required/>
+        <p id="small-year" class="small">Remplissez ce champs, chiffres uniquement</p>
+
+        <label for="lien">Lien spotify, youtube ou Appple Music: </label>
+        <input type="text" id="lien" placeholder="https://open.spotify.com/intl-fr/track/4PTG3Z6ehGkBFwjybzWkR8?si=5e2a599c22c7492e" requierd> <br>
+        <p id="small-link" class="small">Remplissez ce champs par un lien spotify, apple music ou youtube</p>
+      
+        <label for="imageUpload">Télécharger une image :</label>
+        <input type="file" id="imageUpload" accept="image/*" placeholder="bah l'image de la musique"/>
+      
+        <label for="descriptionMusique">Description de la musique : (obligatoire, max 1000 caractères)</label>
+        <textarea
+          id="descriptionMusique"
+          placeholder="boum padada boum never gonna give you up"
+          rows="4" cols="50"
+          maxlength="1000"
+          required
+        ></textarea>
+        <p id="small-desc" class="small">Remplissez ce champs</p>
+
+        <button id="submitButton">Envoyer</button>
+      </form>
+      <p><strong>ATTENTION !</strong><br>
+        Les données que vous soumettez seront transmises à l'API de l'Université Gustave Eiffel (site de Champs) et stockées dans la base de données de cette dernière. Conformément au RGPD, elles seront supprimées au plus tard à l'été 2025, soit un an après la fin du projet. Vos données ne seront ni utilisées à des fins commerciales, ni partagées avec des tiers.<br>
+        Pour toute demande de suppression de vos données, veuillez contacter le responsable de l'API : Philippe Gambette (<a href="mailto:philippe.gambette@univ-eiffel.fr">philippe.gambette@univ-eiffel.fr</a>).
+        </p>        
+    </div>
+    
+      
+    <div id="music-by-user"></div>
+    <div class="credits">
+      <p>
+        <strong>Is There Really No Happiness?</strong> <br />
+        © 2024 Porter Weston Robinson, James Ivy Richardson, Gavin Bendt, Luke
+        Shippey, sous licence exclusive à BMG Rights Management (France) <br />
+        © 2024 Sample Size, LLC Under Exclusive License to Mom+Pop
+      </p>
+      <p>
+        <strong>Feel Something</strong> <br />
+        © 2020 Jeffrey Abel, Richard Julius Vanlerberghe, Stephen Daniel
+        Menoian, Tyler Smith, Nicholas Joseph Miller, David Andrew Pramik, Brian
+        Burkheiser, sous licence exclusive à Kobalt Music Publishing (France) et
+        Sony Music Publishing (France) <br />
+        Astralwerks; © 2020 Nick Miller, under exclusive license to UMG
+        Recordings, Inc.
+      </p>
+      <p>
+        <strong>Stained</strong> <br />
+        © 2024 Emily Marcia ARMSTRONG, Brittain Colin, Farrel David, Shinoda
+        Mike, Delson Brad, Shapiro Cal, Hahn Joseph, sous license exlusive à
+        WARNER CHAPPELL MUSIC (France) et UNIVERSAL MUSIC PUBLISHING <br />
+        © 2024 Linkin Park, LLC under exclusive license to Warner Records Inc.
+      </p>
+      <p>
+        <strong>Story Of My Life</strong> <br />
+        © 2021 Nicholas Miller, Michael Lamar II White, Torrey Jacob Casey,
+        David Bradley Jr Wilson, William Henry Schultz, Colin Brittain
+        Cunningham, sous license exclusive à WARNER CHAPPELL MUSIC (France),
+        SONY MUSIC PUBLISHING (France), CONCORD MUSIC PUBLISHING SARL (France),
+        KOBALT MUSIC PUBLISHING (France) <br />
+        © 2021 ILLENIUM LLC, under exclusive license to Warner Records Inc.
+      </p>
+      <p>
+        <strong>Nothing To Lose</strong> <br />
+        Droits non inscrits sur le site de la SACEM <br />
+        © 2024 Oniris Records
+      </p>
+      <hr />
+      <p>
+        Les extraits musicaux présentés dans ce projet sont utilisés dans un cadre strictement éducatif et non lucratif. Ils ont pour unique objectif d'illustrer les œuvres mentionnées et de permettre une analyse ou une présentation dans le cadre d'un exercice scolaire. <br>
+        Conformément à l'article L122-5 du Code de la propriété intellectuelle en France, qui prévoit des exceptions au droit d'auteur, ces extraits sont limités à une courte durée, respectant le principe de proportionnalité et justifiés par un objectif pédagogique. <br>
+        Aucune redistribution, commercialisation ou utilisation hors de ce projet scolaire n'est prévue. Les droits des œuvres appartiennent à leurs auteurs, compositeurs et ayants droit respectifs cités ci-dessus.
+      </p>
+    </div>
+    <footer>
+        <p>© 2024 MMisic</p>
+        <p>Service proposé et développé par Romain Viktorovitch</p>
+        <p>Contact: <a href="mailto:romain.viktorovitch@edu.univ-eiffel.fr">romain.viktorovitch@edu.univ-eiffel.fr</a></p>
+        <p>Tout abus sera sanctionné</p>
+    </footer>
+    <script type="module" src="public/js/data.js"></script>
+    <script type="module" src="public/js/script.js"></script>
+  </body>
+</html>

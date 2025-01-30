@@ -1,0 +1,69 @@
+{
+    "musics": [
+        {
+            "name": "Is There Really No Happiness?",
+            "artists": ["Porter Robinson"],
+            "year": 2024,
+            "cover": "./public/img/really-no-happiness.png",
+            "audio": "./public/audios/IsThereReallyNoHappiness.mp3",
+            "lyrcis": "./public/lrc/IsThereReallyNoHappiness.lrc",
+            "link" : "https://music.apple.com/fr/album/is-there-really-no-happiness/1740856393?i=1740856732&l=fr-FR",
+            "platform": "./public/img/applemusic.png",
+            "link2": "https://open.spotify.com/intl-fr/track/3eE6IderHf7lnqOorqiNVK?si=4207f6a6b7504fcc",
+            "platform2": "./public/img/spotify.png",
+            "description": "Is There Really No Happiness de Porter Robinson est un morceau appartenant à son dernier album SMILE :D, sorti cet été 2024. C’est un album très attendu par les fans qui attendaient du nouveau contenu depuis 3 ans. Cet album accompagne son world tour actuel qui s’étend jusqu’en 2025. <br> <br>Je suis attaché à cette musique car la musique ressort une énergie dansante, tout en étant chargé d’émotions. Ce mélange rend l’écoute captivante, car elle m’emmène sur deux émotions différentes. Mais cette énergie dansante est contrastée tout de même par les paroles puissante que la chanson délivre. Elles explorent les thèmes universels comme la nostalgie, la quête du bonheur et les émotions complexes liées à l’amour et à la mémoire. Ces idées ce résonnent en moi. <br> <br> En plus des paroles et de cette énérgie, Porter Robinson à son propre style, mêlant des sonorités électroniques et des mélodies pop. De plus les paroles parlent de douleur, de perte et de nostalgie mais l’instrumentale arrive parfois à me donner un sentiment d’évasion et de catharsis. Ce contraste rend cette musique mémorable. Comme tout le monde, je grandis, les moment de nostalgie sont de plus en plus nombreux. Ce qui fait que cette musique entretient un lien important entre elle et moi."
+        },
+        {
+            "name": "Feel Something",
+            "artists": ["ILLENIUM", " Excision", " I Prevail"],
+            "year": 2020,
+            "cover": "./public/img/feel-something.png",
+            "audio": "./public/audios/FeelSomething.mp3",
+            "lyrcis": "./public/lrc/FeelSomething.lrc",
+            "link" : "https://music.apple.com/fr/album/feel-something-single/1504162843?l=fr-FR",
+            "platform": "./public/img/applemusic.png",
+            "link2": "https://open.spotify.com/intl-fr/track/5dAtKXyrQoQW054LZqJ5dP?si=ec224e9fdc824825",
+            "platform2": "./public/img/spotify.png",
+            "description": "Feel Something, sortie en 2020 entre son album Ascend et Fallen Embers, est une musique qui resonne en moi pour beaucoup de raisons. Dans un premier temps, cette musique est selon moi, l’une des collaborations les plus folle de tout le catalogue de l’artiste. Cette musique mélange les mélodies émotionnelles de ILLENIUM, la dubstep de Excision, et la voix exceptionnelle de I Prevail, la rend spéciale. <br> <br> Même si cette musique est maintenant sortie il y a quelques temps, cette œuvre reste intemporelle grâce à la puissance des mélodies et la profondeur de ses paroles. <br> <br> De plus, ce qui me touche, c’est l’équilibre parfait entre mélodies électroniques intenses et des éléments plus organiques comme la guitare électrique. Ce mélange, permet à la musique de se donner une énergie puissante et mélancolique. <br> <br> Par ailleurs, Feel Someting occupe une place significative dans mon top 5 car c’est l’une des musique princpale de l’intro de dernier DJ Set (Live Set) de ILLENIUM pour son world tour en 2023/2024."
+        },
+        {
+            "name": "Stained",
+            "artists": ["Linkin Park"],
+            "cover": "./public/img/stained.png",
+            "year": 2024,
+            "audio": "./public/audios/Stained.mp3",
+            "lyrcis": "./public/lrc/Stained.lrc",
+            "link" : "https://music.apple.com/fr/album/stained/1766137049?i=1766137064&l=fr-FR",
+            "platform": "./public/img/applemusic.png",
+            "link2": "https://open.spotify.com/intl-fr/track/0J1IJsMbKWb5g2sJArTkGF?si=2bcf7daa3ba24bab",
+            "platform2": "./public/img/spotify.png",
+            "description": "Stained est un des singles du dernier album From Zero de Linkin Park. Cet album marque un tournant dans l’histoire du groupe après 7 ans d’absence suite au décès du chanteur Chester, grâce à la voix de la nouvelle chanteuse Emily Armstrong. Cet élant de fraîcheur apporte une dimension au groupe plutôt tourné Rock/Alternative Rock. <br> <br> La voix d’Emily Armstrong est dans ce morcaux à la fois apaisante et puissante, créant un contraste entre les couplet et le refrain. <br> <br> Ce qui me touche tout particulièrement  c’est la puissance des paroles. En effet Stained parle de culpabilité et de marque d’indélébilité que laissent nos erreurs. Par exemple “You try to hide the mark, but it won’t fade” illustre  l’idée que, peu importe nos effort, nos erreurs refont surface. <br> <br> Musicalement, le morceau est aussi une réussite; en effet la structure progressive / alternative que prend ce morceau avec des couplet calme et des refrains puissants met en avant l’habileté du grupe à jouer sur les contrastes. Cet équilibre calme et intensité rend Stained un morceau qui m’a plu dès la première écoute."
+        },
+        {
+            "name": "Story Of My Life (ft. Trippie Redd)",
+            "artists": ["ILLENIUM", " Sueco"],
+            "year": 2021,
+            "cover": "./public/img/story-of-my-life.png",
+            "audio": "./public/audios/StoryOfMyLife.mp3",
+            "lyrcis": "./public/lrc/StoryOfMyLife.lrc",
+            "link" : "https://music.apple.com/fr/album/story-of-my-life-feat-trippie-redd-single/1596762929?l=fr-FR",
+            "platform": "./public/img/applemusic.png",
+            "link2": "https://open.spotify.com/intl-fr/track/1g7j5AxiNKTGjryhFIlAsA?si=0db3340e32a94453",
+            "platform2": "./public/img/spotify.png",
+            "description": "Story Of My Life est un single sorti en 2021, avec ILLENIUM (oui c’est la deuxième fois qu’il apparaît dans ce top... pas le droit d’être fan ici?), Sueco et Trippie Redd. Je suis attaché a cette musique car j’aime beaucoup les sonorité électronique entreprisent par ILLENIUM, tout en ajoutant une sonorité Rock/Métal. <br> <br> Les paroles sont poignantes notamment quand la voix puissante de Sueco énonce: <br> <br> <span>“This always happens, words don't match your actions <br> I've been here before a hundred times <br> So what's the point of being disappointed <br> Guess it's just the story of my life”</span> <br> <br> Cette musique me rapelle un moment assez mémorable. C'était lors du live stream du plus gros concert de ILLENIUM, appelé “Trilogy”. C’est fait dans un stade avec 80 000 personnes 74 lasers dont un de 500W. Sueco et Trippie Redd étaient invités pour cette occasion et la version live mélangeant d'ailleur Numb (Linkin Park) et Stroy Of My Life, met en avant les voix grâce à la guitare et la batterie joués respectivement par Taylor Dearman et Nick Totton."
+        },
+        {
+            "name": "Nothing To Lose",
+            "artists": ["StevenTed", " Romyle"],
+            "year": 2024,
+            "cover": "./public/img/ntl.png",
+            "audio": "./public/audios/ntl.mp3",
+            "lyrcis": "./public/lrc/ntl.lrc",
+            "link" : "https://music.apple.com/fr/album/nothing-to-lose-feat-romyle/1759046425?i=1759046426",
+            "platform": "./public/img/applemusic.png",
+            "link2": "https://open.spotify.com/intl-fr/album/5IXVfg8d0VoHiU0STQjzIR?si=CIzsjoBGSIKllYwjk9b5fw",
+            "platform2": "./public/img/spotify.png",
+            "description": "Nothing To Lose est une musique qui me tiens a cœur car quand je l'écoute, elle me donne envie de danser. C'est typiquement le type de House que j'aime bien avec un kick très sourd un lead très présent et des vocal qui donne envie de bouger. <br> <br> Nothing To Lose est une musique qui rentre dans la tête grâce à ces paroles efficaces et percutantes. <br> <br> Stevented et Romyle avaient plusieurs fois exprimé leur envie de collaborer ensemble en semi-public. Cette sortie estivale à été très appréciée et était très attendue (pas du tout). "
+        }
+    ]
+}

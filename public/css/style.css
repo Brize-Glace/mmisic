@@ -1,0 +1,335 @@
+
+html {
+    scroll-behavior: smooth;
+    
+}
+span {
+    font-style: italic;
+}
+h1,
+h2 {
+    font-family: "Righteous", sans-serif, "Arial", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1rem;
+    color: grey;
+
+}
+
+.cover img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+#music-header>.link-to-platform a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+    z-index: 100;
+}
+#music-header h2 {
+    margin: 0 0 10px 0;
+}
+#music-header h1 {
+    margin: 0 0 10px 0;
+}
+.link-to-platform img {
+    width: 80px;
+    filter: invert(1);
+}
+button {
+    cursor: pointer;
+}
+p {
+    font-family: "Poppins", sans-serif, "Arial", sans-serif;
+}
+.description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@keyframes animation-header {
+    0%{
+        animation: translateY(-2px);
+    }
+    50%{
+        animation: translateY(2px);
+    }
+    100%{
+        animation: translateY(-2px);
+    }
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(52, 52, 52);
+}
+button {
+    border: 0;
+    background: none;
+    outline: none;
+}
+.description-container p {
+    margin: 20px 80px 0 80px ;
+}
+.fa-volume-off {
+    padding: 0 10px 0 30px;
+}
+
+#header  {
+    height: 100vh;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#header h1 {
+    align-self: center;
+    font-size: 3rem;
+    margin: 0;
+}
+#btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#btn a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.music-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.fa-comment-dots {
+    margin-left: 10px;
+}
+.link-to-platform a {
+    padding : 10px 20px;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.rotate {
+    animation: rotate 1.8s linear infinite; /* Vitesse d'un vinyle 33 tours : précis, réaliste... mais Opquast n'a pas encore statué sur le groove. */
+}/* 33 tours par minute, fidèle à la réalité... Mais est-ce conforme Opquast ? À débattre. */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.lyrics-line.highlight {
+    opacity: 1;
+    font-weight: bold;
+    font-size: 1.5rem;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.go-out {
+    animation: fadeIn 0.9s ease-in-out
+}
+.volume-container {
+    width: 110px;
+    height: 7px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.volume-bar {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    transition: width 0.1s ease;
+    border-radius: 10px;
+}
+.time-container {
+    width: 400px;
+    height: 7px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.time-bar {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    width: 0%;
+    transition: width 0.1s ease;
+    border-radius: 10px;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+}
+
+.cover img {
+    width: 50%;
+    border-radius: 10px;
+}
+.lyrics {
+    font-size: 16px;
+    line-height: 1.5;
+    display: block;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow-y: auto;
+    margin: 0 auto;
+    padding: 0;
+    height: 60vh;
+}
+.lyrics-line {
+    opacity: 0.6;
+    transition: opacity 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+.lyrics-line p{
+    text-align: center;
+}
+
+.lyrics-line.highlight {
+    opacity: 1;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.credits {
+    padding: 2rem 0;
+}
+.credits p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+form {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form label {
+    display: block;
+}
+form input {
+    min-width: 500px;
+} 
+label {
+    font-size: 0.95rem;
+}
+input {
+    border-radius: 5px;
+    border: #333 2px solid;
+}
+input[type="file"] {
+    border: none;
+}
+textarea {
+    border-radius: 5px;
+    border: #333 2px solid;
+    min-width: 500px;
+    min-height: 200px;
+    padding: 10px;
+}
+#imageUpload {
+    margin-bottom: 15px;
+}
+
+.small {
+    padding-bottom: 15px !important;
+    margin: 0;
+    font-size: 0.7rem;
+    visibility: hidden;
+}
+form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    margin: 0px 0;
+}
+footer {
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .description-container p {
+        margin: 20px 20px 0 20px ;
+    }
+    .cover img {
+        width: 80%;
+    }
+    .lyrics {
+        font-size: 14px;
+    }
+    .lyrics-line {
+        font-size: 1rem;
+    }
+    .lyrics-line.highlight {
+        font-size: 1.2rem;
+    }
+    .description-container {
+        height: auto;
+    }
+    .cover {
+        height: auto;
+    }
+    .lyrics {
+        height: auto;
+    }
+    .volume-container, .time-container {
+        width: 80px;
+        height: 5px;
+    }
+
+    .volume-bar, .time-bar {
+        height: 100%;
+    }
+}
